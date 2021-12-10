@@ -1,6 +1,7 @@
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
   }
 
   /* Navigation bar CSS */
@@ -21,12 +22,12 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #c0771f;
     color: black;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #e99129;
     color: white;
   }
   
@@ -72,7 +73,7 @@
     margin-top: 2%;
     padding: 2%;
     text-align: center;
-    background-image: url('images/banner.png');
+    background-image: url('images/banner.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -85,33 +86,18 @@
     1px 1px 1px #000;
   }
 
-  #informatik {
-    background-image:  url('images/informatik.jpg');
+  #potentiale {
+    background-image:  url('images/potentiale-background.jpg');
   }
 
-  #matematik {
-    background-image:  url('images/matematik.jpg');
+  #fridom {
+    background-image:  url('images/fridom-background.jpg');
   }
 
-  #engelsk {
-    background-image:  url('images/engelsk.jpg');
-  }
-
-  #so {
-    background-image:  url('images/so.jpg');
-  }
-
-  #dotdotdot {
-    background-image:  url('images/dotdotdot.jpg');
-  }
-
-  #dansk {
-    background-image:  url('images/dansk.jpg');
-  }
 
   .content .element {
-    max-width: 49%;
     margin: 0 auto;
+    width: 49%;
     text-align:center; 
   }
 
@@ -139,12 +125,12 @@
 
     .content .element {
       float: none;
-      max-width: 80%;
+      width: 90%;
     } 
   }
 
   #profile-picture {
-    max-width: 50%;
+    width: 100%;
   }
 
   /* Accordion CSS */
@@ -178,3 +164,18 @@
     transition: max-height 0.2s ease-out;
   }
 
+ /* Style buttons */
+ .btn {
+  background-color:  #e99129;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:  #c0771f;
+} 

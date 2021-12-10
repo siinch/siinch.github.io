@@ -25,16 +25,24 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-let myName = "Simon";
+
+
+
+let mainName = "ALTPAASPIL";
 let firstlink = document
 .getElementsByTagName("a")[0];
-firstlink.innerHTML = myName;
+firstlink.innerHTML = mainName;
 
-let subject1 = "FYS";
+let subject1 = "POTENTIALE";
 let secondlink = document
-.getElementsByTagName("a")[5];
+.getElementsByTagName("a")[1];
 secondlink.innerHTML = subject1;
+
+let subject2 = "FRIDOM";
+let thirdlink = document
+.getElementsByTagName("a")[2];
+thirdlink.innerHTML = subject2;
 
 let title = document
 .getElementsByTagName("title")[0];
-title.innerHTML = myName + "s Logbog";
+title.innerHTML = mainName;
